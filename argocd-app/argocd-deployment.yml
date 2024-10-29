@@ -19,7 +19,7 @@ spec:
         type: argocd-demo
     spec:
       containers:
-      - image: shimulmahmud/argocd-node-app:v5
+      - image: shimulmahmud/argocd-node-app:v7
         name: argocd-app-container
         ports:
         - containerPort: 80
